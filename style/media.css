@@ -1,0 +1,52 @@
+@media (max-width: 768) {
+    body {
+        background-color: aqua;
+    }
+    .wrapper {
+        max-width: 668px;
+    }
+    .welcome_content-pic {
+        width: 280px;
+        height: 254.15px;
+    }
+    .welcome_content-text_plants {
+        width: 341px;
+        height: 101px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 50px;
+
+        color: #717171;
+    }
+    .welcome_content-text_lorem {
+        width: 341px;
+        height: 105px;
+
+        font-size: 16px;
+    }
+    .welcome_content {
+        flex-direction: row-reverse;
+    }
+
+    .about_content {
+        flex-direction: column
+    }
+    .about_content-text_professional {
+        font-size: 35px;
+        line-height: 46px;
+        text-align: center;
+    }
+    .about_content-text {
+        width: 668px;
+        height: 208px;
+
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .about_content-pick {
+        margin: 40px auto 95px;
+    }
+}
