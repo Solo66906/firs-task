@@ -1,7 +1,4 @@
-@media (max-width: 768) {
-    body {
-        background-color: aqua;
-    }
+@media (max-width: 768px) { 
     .wrapper {
         max-width: 668px;
     }
@@ -35,6 +32,7 @@
         flex-direction: column
     }
     .about_content-text_professional {
+        margin: 0px auto 40px;
         font-size: 35px;
         line-height: 46px;
         text-align: center;
@@ -48,5 +46,86 @@
     }
     .about_content-pick {
         margin: 40px auto 95px;
+        width: 250px;
+        height: 258px;
+    }
+    .service_header {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: normal;
+        align-items: normal;
+    }
+    .service_header-button {
+        margin: 40px 0px;
+        max-width: 559px;
+    }
+    .button_item:first-child {
+        margin-left: 0px;
+    }
+    .service_card {
+        margin-top: 0px;
+        max-width: 668px;
+    }
+    .card {
+        width: 281px;
+        height: 450px;
+    }
+    .cardImg {
+        width: 280px;
+        height: 350px;
+    }
+    .cardText {
+        width: 280px;
+        height: 100px;
+    }
+    .card p {
+        width: 201px;
+        height: 40px;
+    }
+    .prices h2 {
+        font-size: 35px;
+        line-height: 42px;
+        margin-bottom: 50px;
+    }
+    .container {
+        margin-top: 140px;
+    }
+    .prices_text {
+        font-size: 25px;
+        line-height: 35px;
+        width: 296px;
+    }
+    .prices_text-button {
+        margin-top: 22px;
+        margin-bottom: 34px;
+    }
+    .prices_leafs {
+        margin-top: 50px;
+    }
+    .contacts_content{
+        flex-direction: column;
+    }
+    .contacts_women {
+        margin: 250px auto 0px;
+        order: 3;
+    }
+    .contacts_women img {
+        width: 200px;
+        height: 249px;
+    }
+    .contacts_rectangle{
+        margin: 100px auto 0px;
+        order: 2;
+    }
+    .contacts_header{
+        margin: 40px auto 0px;
+        order: 1;
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .footer {
+        margin: 33px auto 18px;
+        flex-direction: column;
+        align-items: center;
     }
 }
